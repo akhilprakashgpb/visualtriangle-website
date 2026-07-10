@@ -67,4 +67,21 @@
   // ---- current year in footer ----
   var yearEl = document.querySelector('[data-year]');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+  // ---- insights: topic box opens the matching article and scrolls to it ----
+  document.querySelectorAll('.insight-box[data-target]').forEach(function(box){
+    box.addEventListener('click', function(e){
+      var targetId = box.getAttribute('data-target');
+      var target = document.getElementById(targetId);
+      if (!target) return;
+      e.preventDefault();
+      document.querySelectorAll('details.insight-article[open]').forEach(function(d){
+        if (d !== target) d.removeAttribute('open');
+      });
+      target.setAttribute('open', '');
+      window.setTimeout(function(){
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 30);
+    });
+  });
 })();

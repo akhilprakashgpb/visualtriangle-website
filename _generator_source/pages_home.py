@@ -21,23 +21,57 @@ HOME = """
   </div>
   <div class="marquee reveal" style="margin-top:28px;">
     <div class="marquee-track">
-      <img src="assets/clients/kaizen.png" alt="Kaizen"><img src="assets/clients/kolo.png" alt="Kolo">
-      <img src="assets/clients/undp.png" alt="UNDP"><img src="assets/clients/bj_roofing.png" alt="B&J Roofing">
-      <img src="assets/clients/bmh.png" alt="BMH"><img src="assets/clients/kwalkrete.png" alt="KwalKrete">
-      <img src="assets/clients/roof_makers.png" alt="Roof Makers"><img src="assets/clients/nandilath_gmart.png" alt="Nandilath G-Mart">
-      <img src="assets/clients/espanshe.png" alt="Espanshe"><img src="assets/clients/collective.png" alt="Collective Phase One">
-      <img src="assets/clients/stoki.png" alt="Stoki"><img src="assets/clients/ansklu.png" alt="Ansklu">
-      <img src="assets/clients/alpha_palliative.png" alt="Alpha Palliative Care"><img src="assets/clients/muzik247.png" alt="Muzik 247">
-      <img src="assets/clients/thekkepat_films.png" alt="Thekkepat Films"><img src="assets/clients/kerala_forest.png" alt="Kerala Forest Department">
+      <img src="assets/clients/kaizen.png" alt="Kaizen">
+      <img src="assets/clients/kolo.png" alt="Kolo">
+      <img src="assets/clients/undp.png" alt="UNDP">
+      <img src="assets/clients/bj_roofing.png" alt="B&J Roofing">
+      <img src="assets/clients/bmh.png" alt="BMH">
+      <img src="assets/clients/kwalkrete.png" alt="KwalKrete">
+      <img src="assets/clients/roof_makers.png" alt="Roof Makers">
+      <img src="assets/clients/nandilath_gmart.png" alt="Nandilath G-Mart">
+      <img src="assets/clients/espanshe.png" alt="Espanshe">
+      <img src="assets/clients/collective.png" alt="Collective Phase One">
+      <img src="assets/clients/stoki.png" alt="Stoki">
+      <img src="assets/clients/ansklu.png" alt="Ansklu">
+      <img src="assets/clients/alpha_palliative.png" alt="Alpha Palliative Care">
+      <img src="assets/clients/muzik247.png" alt="Muzik 247">
+      <img src="assets/clients/thekkepat_films.png" alt="Thekkepat Films">
+      <img src="assets/clients/kerala_forest.png" alt="Kerala Forest Department">
+      <img src="assets/clients/ashwathy_chips.png" alt="Ashwathy Chips">
+      <img src="assets/clients/filmroll.png" alt="Filmroll">
+      <img src="assets/clients/ironmeka.png" alt="Ironmeka">
+      <img src="assets/clients/konface.png" alt="Konface">
+      <img src="assets/clients/cadbury.png" alt="Cadbury">
+      <img src="assets/clients/impam.png" alt="Impam">
+      <img src="assets/clients/kirtilals.png" alt="Kirtilals">
+      <img src="assets/clients/myg.png" alt="MyG">
+      <img src="assets/clients/swad.png" alt="Swad">
       <!-- duplicate set for seamless loop -->
-      <img src="assets/clients/kaizen.png" alt="Kaizen"><img src="assets/clients/kolo.png" alt="Kolo">
-      <img src="assets/clients/undp.png" alt="UNDP"><img src="assets/clients/bj_roofing.png" alt="B&J Roofing">
-      <img src="assets/clients/bmh.png" alt="BMH"><img src="assets/clients/kwalkrete.png" alt="KwalKrete">
-      <img src="assets/clients/roof_makers.png" alt="Roof Makers"><img src="assets/clients/nandilath_gmart.png" alt="Nandilath G-Mart">
-      <img src="assets/clients/espanshe.png" alt="Espanshe"><img src="assets/clients/collective.png" alt="Collective Phase One">
-      <img src="assets/clients/stoki.png" alt="Stoki"><img src="assets/clients/ansklu.png" alt="Ansklu">
-      <img src="assets/clients/alpha_palliative.png" alt="Alpha Palliative Care"><img src="assets/clients/muzik247.png" alt="Muzik 247">
-      <img src="assets/clients/thekkepat_films.png" alt="Thekkepat Films"><img src="assets/clients/kerala_forest.png" alt="Kerala Forest Department">
+      <img src="assets/clients/kaizen.png" alt="Kaizen">
+      <img src="assets/clients/kolo.png" alt="Kolo">
+      <img src="assets/clients/undp.png" alt="UNDP">
+      <img src="assets/clients/bj_roofing.png" alt="B&J Roofing">
+      <img src="assets/clients/bmh.png" alt="BMH">
+      <img src="assets/clients/kwalkrete.png" alt="KwalKrete">
+      <img src="assets/clients/roof_makers.png" alt="Roof Makers">
+      <img src="assets/clients/nandilath_gmart.png" alt="Nandilath G-Mart">
+      <img src="assets/clients/espanshe.png" alt="Espanshe">
+      <img src="assets/clients/collective.png" alt="Collective Phase One">
+      <img src="assets/clients/stoki.png" alt="Stoki">
+      <img src="assets/clients/ansklu.png" alt="Ansklu">
+      <img src="assets/clients/alpha_palliative.png" alt="Alpha Palliative Care">
+      <img src="assets/clients/muzik247.png" alt="Muzik 247">
+      <img src="assets/clients/thekkepat_films.png" alt="Thekkepat Films">
+      <img src="assets/clients/kerala_forest.png" alt="Kerala Forest Department">
+      <img src="assets/clients/ashwathy_chips.png" alt="Ashwathy Chips">
+      <img src="assets/clients/filmroll.png" alt="Filmroll">
+      <img src="assets/clients/ironmeka.png" alt="Ironmeka">
+      <img src="assets/clients/konface.png" alt="Konface">
+      <img src="assets/clients/cadbury.png" alt="Cadbury">
+      <img src="assets/clients/impam.png" alt="Impam">
+      <img src="assets/clients/kirtilals.png" alt="Kirtilals">
+      <img src="assets/clients/myg.png" alt="MyG">
+      <img src="assets/clients/swad.png" alt="Swad">
     </div>
   </div>
 </section>
@@ -98,16 +132,19 @@ HOME = """
 <section class="section">
   <div class="wrap">
     <p class="eyebrow reveal">03 — Leadership</p>
-    <div class="grid grid-2" style="margin-top:24px; align-items:center; gap:56px;">
+    <div class="grid grid-2" style="margin-top:24px; gap:56px; align-items:center;">
       <div class="reveal">
         <h2 class="display-3">Led by a working editor.<br>Advised by a council of<br>National Award &amp; Sundance<br>filmmakers.</h2>
+        <p class="lede" style="margin-top:24px;">Founder &amp; CEO Akhil Prakash is a working Film Editor and Colorist
+          with 14 years across television, documentaries and feature films — mentored by National Award-winning
+          editor B. Ajithkumar, and now cutting alongside directors like Rajeev Ravi and Geetu Mohandas.</p>
         <div style="margin-top:32px; display:flex; gap:16px; flex-wrap:wrap;">
           <a href="ceo.html" class="btn btn-ghost">Meet the CEO <span class="btn-arrow">&rarr;</span></a>
           <a href="leadership.html" class="btn btn-ghost">Creative Council <span class="btn-arrow">&rarr;</span></a>
         </div>
       </div>
-      <div class="figure reveal" style="aspect-ratio:3/4; max-width:280px; margin-left:auto;">
-        <img src="assets/team/akhil_prakash.jpg" alt="Akhil Prakash, Founder &amp; CEO of Visual Triangle" class="kicker-photo">
+      <div class="figure reveal" style="aspect-ratio:4/5;">
+        <img src="assets/photography/leadership_home.jpg" alt="Akhil Prakash on set" class="kicker-photo">
       </div>
     </div>
   </div>

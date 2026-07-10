@@ -188,31 +188,39 @@ CEO = """
   <div class="wrap">
     <p class="eyebrow reveal">04 — Editing Credits</p>
     <h2 class="display-3 reveal" style="margin-top:18px; max-width:700px;">Lead editor.</h2>
-    <div class="grid grid-2" style="margin-top:48px; gap:24px;">
-      <div class="hairline-card reveal">
-        <h3 class="h4">Bayamariya Brammai <span style="font-weight:400; color:var(--gray-light);">(2024)</span></h3>
-        <p style="margin-top:8px; color:var(--white-70);">Director: Rahul Kabali</p>
+    <div class="grid reveal" style="margin-top:48px; gap:24px; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); max-width:520px;">
+      <div class="poster-card poster-lg reveal">
+        <img src="assets/posters/bayamariya_brammai.jpg" alt="Bayamariya Brammai poster">
+        <span class="poster-year">2024</span>
+        <div class="poster-inner">
+          <h3 class="poster-title">Bayamariya Brammai</h3>
+          <p class="poster-dir">Dir. Rahul Kabali</p>
+        </div>
       </div>
-      <div class="hairline-card reveal">
-        <h3 class="h4">Poyyamozhi <span style="font-weight:400; color:var(--gray-light);">(2024)</span></h3>
-        <p style="margin-top:8px; color:var(--white-70);">Director: Sudhi Anna</p>
+      <div class="poster-card poster-lg reveal">
+        <img src="assets/posters/poyyamozhi.jpg" alt="Poyyamozhi poster">
+        <span class="poster-year">2024</span>
+        <div class="poster-inner">
+          <h3 class="poster-title">Poyyamozhi</h3>
+          <p class="poster-dir">Dir. Sudhi Anna</p>
+        </div>
       </div>
     </div>
 
     <p class="eyebrow reveal" style="margin-top:72px;">05 — Associated Editing Credits</p>
-    <div class="grid grid-3" style="margin-top:32px; gap:1px; background:var(--line-on-dark); border:1px solid var(--line-on-dark);">
-      <div class="reveal" style="background:var(--ink); padding:28px 24px;"><h3 class="h4" style="font-size:19px;">Toxic <span style="font-weight:400; color:var(--gray-light); font-size:15px;">(2026)</span></h3><p style="margin-top:6px; color:var(--white-70); font-size:14px;">Dir. Geetu Mohandas</p></div>
-      <div class="reveal" style="background:var(--ink); padding:28px 24px;"><h3 class="h4" style="font-size:19px;">Muthu Alias Kaattaan <span style="font-weight:400; color:var(--gray-light); font-size:15px;">(2026)</span></h3><p style="margin-top:6px; color:var(--white-70); font-size:14px;">Hotstar · Dir. M Manikandan, B Ajithkumar</p></div>
-      <div class="reveal" style="background:var(--ink); padding:28px 24px;"><h3 class="h4" style="font-size:19px;">Barroz <span style="font-weight:400; color:var(--gray-light); font-size:15px;">(2024)</span></h3><p style="margin-top:6px; color:var(--white-70); font-size:14px;">Dir. Mohanlal</p></div>
-      <div class="reveal" style="background:var(--ink); padding:28px 24px;"><h3 class="h4" style="font-size:19px;">Maharaj <span style="font-weight:400; color:var(--gray-light); font-size:15px;">(2024)</span></h3><p style="margin-top:6px; color:var(--white-70); font-size:14px;">Dir. Siddharth P Malhotra</p></div>
-      <div class="reveal" style="background:var(--ink); padding:28px 24px;"><h3 class="h4" style="font-size:19px;">Pulimada <span style="font-weight:400; color:var(--gray-light); font-size:15px;">(2023)</span></h3><p style="margin-top:6px; color:var(--white-70); font-size:14px;">Dir. A K Sajan</p></div>
-      <div class="reveal" style="background:var(--ink); padding:28px 24px;"><h3 class="h4" style="font-size:19px;">Thuramukham <span style="font-weight:400; color:var(--gray-light); font-size:15px;">(2023)</span></h3><p style="margin-top:6px; color:var(--white-70); font-size:14px;">Dir. Rajeev Ravi</p></div>
-      <div class="reveal" style="background:var(--ink); padding:28px 24px;"><h3 class="h4" style="font-size:19px;">Thurthu Nirgamana <span style="font-weight:400; color:var(--gray-light); font-size:15px;">(2022)</span></h3><p style="margin-top:6px; color:var(--white-70); font-size:14px;">Dir. Hemanth Kumar L</p></div>
-      <div class="reveal" style="background:var(--ink); padding:28px 24px;"><h3 class="h4" style="font-size:19px;">Kuttavum Shikshayum <span style="font-weight:400; color:var(--gray-light); font-size:15px;">(2022)</span></h3><p style="margin-top:6px; color:var(--white-70); font-size:14px;">Dir. Rajeev Ravi</p></div>
-      <div class="reveal" style="background:var(--ink); padding:28px 24px;"><h3 class="h4" style="font-size:19px;">Kadaisi Vivasayi <span style="font-weight:400; color:var(--gray-light); font-size:15px;">(2021)</span></h3><p style="margin-top:6px; color:var(--white-70); font-size:14px;">Dir. M Manikandan</p></div>
-      <div class="reveal" style="background:var(--ink); padding:28px 24px;"><h3 class="h4" style="font-size:19px;">Run Kalyani <span style="font-weight:400; color:var(--gray-light); font-size:15px;">(2019)</span></h3><p style="margin-top:6px; color:var(--white-70); font-size:14px;">Dir. Geetha J</p></div>
-      <div class="reveal" style="background:var(--ink); padding:28px 24px;"><h3 class="h4" style="font-size:19px;">Thalakuri <span style="font-weight:400; color:var(--gray-light); font-size:15px;">(2019)</span></h3><p style="margin-top:6px; color:var(--white-70); font-size:14px;">Dir. Nidheesh Lohidhakshan</p></div>
-      <div class="reveal" style="background:var(--ink); padding:28px 24px;"><h3 class="h4" style="font-size:19px;">Moothon <span style="font-weight:400; color:var(--gray-light); font-size:15px;">(2019)</span></h3><p style="margin-top:6px; color:var(--white-70); font-size:14px;">Dir. Geetu Mohandas</p></div>
+    <div class="grid reveal" style="margin-top:32px; gap:18px; grid-template-columns:repeat(auto-fill,minmax(155px,1fr));">
+      <div class="poster-card reveal"><img src="assets/posters/toxic.jpg" alt="Toxic poster"><span class="poster-year">2026</span><div class="poster-inner"><h3 class="poster-title">Toxic</h3><p class="poster-dir">Dir. Geetu Mohandas</p></div></div>
+      <div class="poster-card reveal"><img src="assets/posters/muthu_alias_kaattaan.jpg" alt="Muthu Alias Kaattaan poster"><span class="poster-year">2026</span><div class="poster-inner"><h3 class="poster-title">Muthu Alias Kaattaan</h3><p class="poster-dir">Hotstar · Dir. M Manikandan, B Ajithkumar</p></div></div>
+      <div class="poster-card reveal"><img src="assets/posters/barroz.jpg" alt="Barroz poster"><span class="poster-year">2024</span><div class="poster-inner"><h3 class="poster-title">Barroz</h3><p class="poster-dir">Dir. Mohanlal</p></div></div>
+      <div class="poster-card reveal"><img src="assets/posters/maharaj.jpg" alt="Maharaj poster"><span class="poster-year">2024</span><div class="poster-inner"><h3 class="poster-title">Maharaj</h3><p class="poster-dir">Dir. S P Malhotra</p></div></div>
+      <div class="poster-card reveal"><img src="assets/posters/pulimada.jpg" alt="Pulimada poster"><span class="poster-year">2023</span><div class="poster-inner"><h3 class="poster-title">Pulimada</h3><p class="poster-dir">Dir. A K Sajan</p></div></div>
+      <div class="poster-card reveal"><img src="assets/posters/thuramukham.jpg" alt="Thuramukham poster"><span class="poster-year">2023</span><div class="poster-inner"><h3 class="poster-title">Thuramukham</h3><p class="poster-dir">Dir. Rajeev Ravi</p></div></div>
+      <div class="poster-card reveal"><img src="assets/posters/thurthu_nirgamana.jpg" alt="Thurthu Nirgamana poster"><span class="poster-year">2022</span><div class="poster-inner"><h3 class="poster-title">Thurthu Nirgamana</h3><p class="poster-dir">Dir. Hemanth Kumar L</p></div></div>
+      <div class="poster-card reveal"><img src="assets/posters/kuttavum_shikshayum.jpg" alt="Kuttavum Shikshayum poster"><span class="poster-year">2022</span><div class="poster-inner"><h3 class="poster-title">Kuttavum Shikshayum</h3><p class="poster-dir">Dir. Rajeev Ravi</p></div></div>
+      <div class="poster-card reveal"><img src="assets/posters/kadaisi_vivasayi.jpg" alt="Kadaisi Vivasayi poster"><span class="poster-year">2021</span><div class="poster-inner"><h3 class="poster-title">Kadaisi Vivasayi</h3><p class="poster-dir">Dir. M Manikandan</p></div></div>
+      <div class="poster-card reveal"><img src="assets/posters/run_kalyani.jpg" alt="Run Kalyani poster"><span class="poster-year">2019</span><div class="poster-inner"><h3 class="poster-title">Run Kalyani</h3><p class="poster-dir">Dir. Geetha J</p></div></div>
+      <div class="poster-card reveal"><img src="assets/posters/thalakuri.jpg" alt="Thalakuri poster"><span class="poster-year">2019</span><div class="poster-inner"><h3 class="poster-title">Thalakuri</h3><p class="poster-dir">Dir. Nidheesh L</p></div></div>
+      <div class="poster-card reveal"><img src="assets/posters/moothon.jpg" alt="Moothon poster"><span class="poster-year">2019</span><div class="poster-inner"><h3 class="poster-title">Moothon</h3><p class="poster-dir">Dir. Geetu Mohandas</p></div></div>
     </div>
   </div>
 </section>
