@@ -237,6 +237,7 @@ details.insight-article .insight-article-body{padding-bottom:32px;}
 @keyframes scroll-x{from{transform:translateX(0);}to{transform:translateX(-50%);}}
 .marquee img{height:52px;width:auto;filter:grayscale(1);opacity:.55;transition:opacity .25s ease, filter .25s ease, transform .25s ease;}
 .marquee img:hover{opacity:1; filter:grayscale(0); transform:translateY(-2px);}
+.marquee img[alt="Sony LIV"],.marquee img[alt="JioHotstar"]{border-radius:10px;}
 
 .tag-pill{
   font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;

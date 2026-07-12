@@ -17,7 +17,7 @@ serves static files).
 | Leadership & Creative Council | `leadership.html` |
 | CEO | `ceo.html` |
 | Insights | `insights.html` |
-| Contact | `contact.html` |
+| Contact | `contact.php` |
 
 ## Design direction
 
@@ -65,9 +65,10 @@ accent color anywhere, by request.
 ## Known gaps to fill in
 
 1. **CEO page** — send the Canva bio text and I'll merge it in.
-2. **Contact form** — the form on `contact.html` is a visual template only
-   (`onsubmit="return false;"`). Wire it to Formspree, your CRM, or a
-   backend endpoint before going live.
+2. **Contact form** — the form on `contact.php` now posts to the same page
+  and sends mail to `dileep.cherat@gmail.com` through PHP's `mail()`
+  function. Delivery requires a real hosting environment with PHP mail
+  configured correctly.
 3. **Portfolio** — category cards link to Contact for now; swap in real
    case studies/reels when ready.
 4. **Favicon** — using the triangle mark at `assets/vt_icon.png`; replace
