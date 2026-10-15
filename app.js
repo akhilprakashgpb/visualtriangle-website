@@ -1,0 +1,4 @@
+const dialog=document.querySelector('dialog'),video=dialog.querySelector('video'),title=document.querySelector('#film-title'),error=document.querySelector('.video-error');let opener;
+document.querySelectorAll('[data-video]').forEach(button=>button.addEventListener('click',()=>{opener=button;title.textContent=button.dataset.title;error.hidden=true;video.src=button.dataset.video;dialog.showModal();video.play().catch(()=>{});}));
+function closeFilm(){video.pause();video.removeAttribute('src');video.load();dialog.close();opener?.focus();}
+document.querySelector('#close').addEventListener('click',closeFilm);dialog.addEventListener('cancel',event=>{event.preventDefault();closeFilm();});dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)closeFilm();}});video.addEventListener('error',()=>{error.hidden=false;});
