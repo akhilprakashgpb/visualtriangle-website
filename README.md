@@ -22,4 +22,8 @@ The `_generator_source` directory is retained as a legacy reference. It predates
 
 ## Contact
 
-The enquiry form opens a prefilled email draft, matching the existing website. It does not send mail through a server. The legacy `contact.php` file is retained but is not used by this form.
+The enquiry form submits to Netlify Forms (`project-enquiry`) with a honeypot. Visitors receive inline confirmation after a successful response; without JavaScript, they are redirected to `/thank-you/`. Failed submissions preserve the entered text for retry. The legacy `contact.php` file is not used.
+
+Before merging/deploying, open the Netlify project serving visualtriangle.com and enable **Forms → Enable form detection**. After deployment, verify that `project-enquiry` is listed. Under **Forms → Submission notifications → Add notification → Email notification**, enter `vt.visualtriangle@gmail.com` and select this form. Submit a real test enquiry and confirm it appears in Forms and arrives in the inbox.
+
+Email notification recipients are configured in Netlify, not in the HTML. This code change cannot enable dashboard settings or verify delivery. Ordinary local static servers and non-Netlify hosting do not process these submissions.
