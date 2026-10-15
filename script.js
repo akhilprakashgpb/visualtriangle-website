@@ -25,29 +25,6 @@
     tcEl.textContent = '00:00:00:00';
   }
 
-  // ---- nav overlay ----
-  var menuBtn = document.querySelector('[data-menu-open]');
-  var closeBtn = document.querySelector('[data-menu-close]');
-  var overlay = document.querySelector('[data-nav-overlay]');
-  function openNav(){
-    overlay.classList.add('open');
-    document.body.classList.add('nav-open');
-  }
-  function closeNav(){
-    overlay.classList.remove('open');
-    document.body.classList.remove('nav-open');
-  }
-  if (menuBtn) menuBtn.addEventListener('click', openNav);
-  if (closeBtn) closeBtn.addEventListener('click', closeNav);
-  if (overlay){
-    overlay.querySelectorAll('a').forEach(function(a){
-      a.addEventListener('click', closeNav);
-    });
-  }
-  document.addEventListener('keydown', function(e){
-    if (e.key === 'Escape') closeNav();
-  });
-
   // ---- scroll reveal ----
   var revealEls = document.querySelectorAll('.reveal');
   if ('IntersectionObserver' in window && revealEls.length){
@@ -94,7 +71,7 @@
     function setContactStatus(message, isError) {
       if (!contactStatus) return;
       contactStatus.style.display = 'block';
-      contactStatus.style.color = isError ? '#a3381b' : 'var(--ink)';
+      contactStatus.style.color = isError ? '#ffb4a1' : '#ddd';
       contactStatus.textContent = message;
     }
 
@@ -163,3 +140,15 @@
     });
   }
 })();
+
+// Keep one film playing at a time.
+document.querySelectorAll('video').forEach(video=>video.addEventListener('play',()=>{document.querySelectorAll('video').forEach(other=>{if(other!==video)other.pause();});}));
+// Native navigation menu, with keyboard dismissal and outside-click handling.
+const menu=document.querySelector('.site-menu');
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&menu?.open){menu.open=false;menu.querySelector('summary').focus();}});
+document.addEventListener('click',e=>{if(menu&&!menu.contains(e.target))menu.open=false;});
+// Keep films in colour while they are playing.
+document.querySelectorAll('video.mono-media').forEach(video=>{
+  video.addEventListener('play',()=>video.classList.add('is-playing'));
+  ['pause','ended','emptied'].forEach(event=>video.addEventListener(event,()=>video.classList.remove('is-playing')));
+});
